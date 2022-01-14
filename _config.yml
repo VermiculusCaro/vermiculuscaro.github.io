@@ -1,0 +1,20 @@
+# Site settings
+title: asdf
+email: ""
+description: ""
+baseurl: ""
+url: "http://asdf.com"
+
+# Build settings
+markdown: kramdown
+
+permalink: /:title.html
+exclude:
+  - README.md
+
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  auto_ids: false
+  syntax_highlighter_opts:
+    disable : true
+  typographic_symbols: {hellip: ..., mdash: ---, ndash: --}
