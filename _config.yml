@@ -11,6 +11,7 @@ markdown: kramdown
 permalink: /:title.html
 exclude:
   - README.md
+  - start-jekyll.sh
 
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
