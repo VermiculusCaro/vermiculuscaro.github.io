@@ -18,3 +18,5 @@ kramdown:
   syntax_highlighter_opts:
     disable : true
   typographic_symbols: {hellip: ..., mdash: ---, ndash: --}
+
+theme: jekyll-theme-cayman
